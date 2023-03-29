@@ -50,6 +50,7 @@ section {
     cursor: default;
 }
 
+/* nav section */
 .nav a {
     font-size: 1.7rem;
     color: var(--text-color);
@@ -68,6 +69,7 @@ section {
     display: none;
 }
 
+/* home section */
 .home {
     display: flex;
     justify-content: center;
@@ -153,6 +155,7 @@ span {
     box-shadow: none;
 }
 
+/* about section */
 .about {
     display: flex;
     justify-content: center;
@@ -184,3 +187,37 @@ span {
     margin: 2rem 0 3rem;
 }
 
+/* skill section */
+.skills h2 {
+    margin-bottom: 5rem;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.skills-container .skills-box {
+    /* flex: 1 1 18rem; */
+    width: 18rem;
+    align-self: start;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
+}
+
+.skills-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.skills-box h3 {
+    font-size: 1.75rem;
+}
+
+/* work section */
