@@ -6,23 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jen Truong Portfolio</title>
 
+    <!-- boxicons link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <!-- css link -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header class="header">
         <!-- Add logo -->
+        <a href="#" class="logo">JT</a>
 
+        <i class='bx bx-menu' id="menu-icon"></i>
         <!-- Nav Bar -->
-        <nav>
-            <a href="#home"> Home </a>
+        <nav class="nav">
+            <a href="#home" class="active"> Home </a>
             <a href="#about"> About </a>
-            <a href="#work"> Work </a>
             <a href="#skills"> Skills </a>
+            <a href="#work"> Work </a>
             <a href="#contact"> Contact </a>
         </nav>
     </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello! I'm</h3>
+            <h1> Jen Truong</h1>
+            <h3>And I'm a <span>Full-Stack Developer</span></h3>
+            <!-- Page Quote -->
+            <figure class= "quote">
+                <blockquote>
+                    “Instead of worrying about what you cannot control, shift your energy to what you can <span class="create"><em>create.</em></span>”
+                </blockquote>
+                <figcaption>
+                    &mdash; Roy T. Bennett, <cite> The Light in the Heart </cite>
+                </figcaption>
+            </figure>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <!--<a href="#"></a>-->
+            </div>
+            <a href="assets/attachments/Jennifer Truong Resume.pdf" class="btn" download>Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="assets/attachments/home-page.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/attachments/about-page.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3> Full-Stack Developer</h3>
+            <p>Welcome! My name is Jennifer Truong, you can call me Jen! 
+            I have a background in Accounting and after a few years in the field, 
+            I decided I wanted to take on my next challenge, web development. 
+            Through web development, I am able to create applications that incorporate my interests and creativity. 
+            I am a Full-Stack Developer based in New York City and I enjoy designing and building better experiences on the web! </p>
+        </div>
+    </section>
+
+    <!-- skills section -->
+    <section class="skills" id="skills">
+        <h2 class="heading"><span>My</span> Skills</h2>
+    </section>
+
+    <!-- work section -->
 
     <!-- js link -->
     <script src="assets/js/script.js"></script>
