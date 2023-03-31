@@ -513,4 +513,17 @@ span {
     .home-img img {
         width: 75vw;
     }
+
+    .about-img img {
+        width: 75vw;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
 }

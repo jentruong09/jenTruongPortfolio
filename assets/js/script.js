@@ -37,3 +37,15 @@ window.onscroll = () => {
     menuIcon.classList.remove('bx-x')
     nav.classList.remove('active')
 };
+
+// scroll reveal 
+ScrollReveal({ 
+    reset: true, 
+    distance: '80px',
+    duration: 2000,
+    delay: 200
+});
+
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .about-content h3, .about-content p, .skills-container, .work-container, .contact-box', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
