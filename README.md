@@ -50,11 +50,17 @@ Technologies Used in this project:
 
 [Memoji](https://support.apple.com/en-us/HT208986)
 
+<cite> The Light in the Heart </cite> by Roy T. Bennett
+“Instead of worrying about what you cannot control, shift your energy to what you can create.” 
+
 <br/>
 
 Code Credit:
 [Codehal - Build a Complete Responsive Personal Portfolio Website using HTML CSS Javascript](https://www.youtube.com/watch?v=Tkp3FDgOueM)
 
+[Jennifer Truong Portfolio](https://github.com/jentruong09/jennifer-truong-portfolio)
+
+[Jen Truong Portfolio](https://github.com/jentruong09/jenTruong)
 
 <br/>
 
