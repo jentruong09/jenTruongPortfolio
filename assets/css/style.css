@@ -14,8 +14,9 @@
     --bg-color: #1f242d;
     --second-bg-color: #323946;
     --text-color: #fff;
-    --main-color: #20B2AA;
+    --main-color: #308e9d;
 }
+/*  #20B2AA #A4DDED*/
 
 html {
     font-size: 60%;
@@ -112,10 +113,12 @@ span {
 
 .home-content figure .create {
     color: var(--main-color);
+    font-weight: 200;
 }
 
 .home-content figure figcaption {
     padding-top: 1%;
+    padding-bottom: 1%;
     /* color: var(--main-color); */
 }
 
